@@ -11,7 +11,7 @@ class Amenity(BaseModel, Base):
     """Represents an Amenity for a MySQL database.
 
     Inherits from SQLAlchemy Base and links to the MySQL table amenities.
-    
+
     Attributes:
         __tablename__ (str): The name of the MySQL table to store Amenities.
         name (sqlalchemy String): The amenity name.
